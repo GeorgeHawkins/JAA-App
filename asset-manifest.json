@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/JAA-App/static/css/main.ad142c20.chunk.css",
-    "main.js": "/JAA-App/static/js/main.fcd06eb7.chunk.js",
-    "main.js.map": "/JAA-App/static/js/main.fcd06eb7.chunk.js.map",
+    "main.js": "/JAA-App/static/js/main.5a514c35.chunk.js",
+    "main.js.map": "/JAA-App/static/js/main.5a514c35.chunk.js.map",
     "runtime-main.js": "/JAA-App/static/js/runtime-main.9cb3d8bb.js",
     "runtime-main.js.map": "/JAA-App/static/js/runtime-main.9cb3d8bb.js.map",
-    "static/js/2.fbb743ff.chunk.js": "/JAA-App/static/js/2.fbb743ff.chunk.js",
-    "static/js/2.fbb743ff.chunk.js.map": "/JAA-App/static/js/2.fbb743ff.chunk.js.map",
+    "static/js/2.62ba37a2.chunk.js": "/JAA-App/static/js/2.62ba37a2.chunk.js",
+    "static/js/2.62ba37a2.chunk.js.map": "/JAA-App/static/js/2.62ba37a2.chunk.js.map",
     "index.html": "/JAA-App/index.html",
     "static/css/main.ad142c20.chunk.css.map": "/JAA-App/static/css/main.ad142c20.chunk.css.map",
-    "static/js/2.fbb743ff.chunk.js.LICENSE.txt": "/JAA-App/static/js/2.fbb743ff.chunk.js.LICENSE.txt",
+    "static/js/2.62ba37a2.chunk.js.LICENSE.txt": "/JAA-App/static/js/2.62ba37a2.chunk.js.LICENSE.txt",
     "static/media/Buildings.05604026.png": "/JAA-App/static/media/Buildings.05604026.png",
     "static/media/JAA_Logo.f7c4b7ec.png": "/JAA-App/static/media/JAA_Logo.f7c4b7ec.png",
     "static/media/JAA_Logo_Cropped.b78c3fe7.png": "/JAA-App/static/media/JAA_Logo_Cropped.b78c3fe7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9cb3d8bb.js",
-    "static/js/2.fbb743ff.chunk.js",
+    "static/js/2.62ba37a2.chunk.js",
     "static/css/main.ad142c20.chunk.css",
-    "static/js/main.fcd06eb7.chunk.js"
+    "static/js/main.5a514c35.chunk.js"
   ]
 }
