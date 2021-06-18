@@ -1,0 +1,365 @@
+html, body, #root, .App {
+  height: 100%;
+}
+
+/* Styles for User Sidebar */
+
+.UpdatesMain {
+  display: flex;
+  padding: 1.5em;
+  height: 90%;
+}
+
+.UserMain {
+  width: 20%;
+}
+
+.SmallLogo {
+  width: 100%;
+  padding: 0em 2em;
+}
+
+.UserSection {
+  background-color: #f5f3f2;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  height: 100%;
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.UserIcons {
+  position: relative;
+  padding-top: 1em;
+  width: 100%;
+}
+
+.UserBubble {
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  background-color: #D97500;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 31px;
+  color: #FFFFFF;
+  font-weight: 500;
+}
+
+.NotificationIcon {
+  position: absolute;
+  right: 0em;
+  top: -.2em;
+}
+
+.NotificationIcon:hover {
+  cursor: pointer;
+}
+
+.ClientName {
+  font-size: 16px;
+  padding-top: 0.8em;
+}
+
+.ClientSubHead {
+  color: #7a7979;
+}
+
+.LotDiv {
+  text-align: left;
+  background-color: #D8D1CB;
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.UserOptions {
+  color: #7a7979;
+  font-size: 16px;
+  text-align: left;
+  margin: 1em;
+  margin-bottom: 0em;
+  height: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.UserBottomText {
+  margin: .9em .5em;
+}
+
+.SettingsText:hover {
+  cursor: pointer;
+}
+
+/* Styles for Main Content Area */
+
+.ContentMain {
+  margin: 0em 2em;
+  width: 60%;
+  position: relative;
+}
+
+.HeaderTabs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TabButton {
+  border-radius: 10px;
+  border: none;
+  padding: 1em;
+  margin-left: 1em;
+  background-color: #f5f3f2;
+  flex-grow: 1;
+  font-family: 'Prompt', sans-serif;
+  color: #7a7979;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.TabButton_Highlighted {
+  color: #0070C3;
+  border-bottom: solid 3px #0070C3;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.TabIcons {
+  position: relative;
+  left: .4em;
+  top: .1em;
+}
+
+.BannerImage {
+  width: 100%;
+  padding-top: 2em;
+  position: absolute;
+  z-index: 5;
+}
+
+.UpdatesActionsMain {
+  background-color: #f5f3f2;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8em;
+}
+
+.ScrollWrapper {
+  overflow-y: scroll;
+}
+
+.UAWrapper {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.UATabs {
+  flex-grow: 1;
+  padding-bottom: 1em;
+  display: flex;
+  max-height: 5em;
+  z-index: 8;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.TabButton__UA {
+  background-color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 0em;
+}
+
+.MarginLeft {
+  margin-left: 1em;
+}
+
+.TabActive {
+  color: #0070C3;
+  border-bottom: solid 3px #0070C3;
+  border-radius: 6px 6px 0px 0px;
+  flex-basis: 75%;
+}
+
+.TabInactive {
+  flex-basis: 25%;
+  border-bottom: none;
+  border-radius: 10px;
+  color: #7a7979;
+}
+
+.UpdateInput {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: 'Prompt', sans-serif;
+  padding: 2em 1em;
+  border-radius: 10px;
+}
+
+/* UA Cards */
+
+.UACard {
+  text-align: left;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  margin-top: 1em;
+  padding: 1.5em;
+}
+
+.NameTimeRow {
+  display: flex;
+  align-items: center;
+
+}
+
+.PosterName {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0070C3;
+  padding-left: 1em;
+}
+
+.PostTime {
+  font-size: 14px;
+  font-weight: 300;
+  color: #7a7979;
+}
+
+.TimeOptionsFlex {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.SubjectText {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1em 0;
+}
+
+.UpdateBody {
+  font-weight: 300;
+  padding-bottom: 1em;
+}
+
+.LikedText {
+  color: #0070C3;
+}
+
+.ActionsProfilePicture {
+  width: 2em;
+  height: 2em;
+}
+
+.ActionsBody {
+  font-weight: 300;
+}
+
+.FileMeetingRow {
+  display: flex;
+  padding-top: .8em;
+  padding-left: .2em;
+}
+
+.FileText {
+  font-weight: 300;
+  padding: 0 1em;
+}
+
+.FileImages {
+  position: relative;
+  bottom: .2em;
+}
+
+.MeetingText {
+  font-weight: 300;
+}
+
+.MeetingTimeText {
+  font-weight: 500;
+}
+
+.SocialButtons {
+  border-radius: 10px;
+  border: none;
+  padding: 1em;
+  margin-right: 1em;
+  background-color: #f5f3f2;
+  flex-grow: 1;
+  font-family: 'Prompt', sans-serif;
+  color: #7a7979;
+  font-weight: 400;
+  font-size: 14px;
+  width: 30%;
+  min-width: 8em;
+}
+
+.SocialIcons {
+  position: relative;
+  top: .2em;
+  right: .5em;
+}
+
+/* Calendar Section Start */
+
+.CalendarEventsSection {
+  background-color: #f5f3f2;
+  border-radius: 10px;
+  padding: 1em;
+  text-align: center;
+  height: 100%;
+  margin-top: 6.5em;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 100%;
+}
+
+.NoMargin {
+  margin: 0em;
+}
+
+.LineSeperator {
+  border: 1px solid #707070;
+  width: 100%;
+}
+
+.EventsHeading {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  padding: .5em;
+}
+
+.EventsSection {
+  overflow-y: scroll;
+}
+
+.EventCard {
+  text-align: left;
+  margin: .5em;
+  padding: 1em;
+  background-color: #f0eeed;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.EventTime {
+  color: #7a7979;
+}

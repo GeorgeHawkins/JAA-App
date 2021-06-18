@@ -1,0 +1,86 @@
+
+.SignUpMain {
+  background-color: #f5f3f2;
+  border-radius: 10px;
+  width: 45%;
+  padding: 0.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.SignUpContentWrapper {
+  width: 55%;
+  margin: auto;
+}
+
+.HeaderLogo {
+  height: 40%;
+  width: 100%;
+}
+
+.SubHeader {
+  font-weight: 300;
+  padding: 1.5em;
+  text-align: center;
+}
+
+.LoginForm {
+  font-weight: 300;
+  box-sizing: border-box;
+  padding: 0em 1em;
+}
+
+.FormDiv {
+  position: relative;
+  margin: 1em 0em;
+}
+
+.LoginInput {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background-color: #FFFFFF;
+  padding: 1.5em;
+  text-align: right;
+  font-family: 'Prompt', sans-serif;
+}
+
+.PasswordInput {
+  flex-grow: 1;
+}
+
+.FormLabel {
+  position: absolute;
+  top: 1.3em;
+  left: 1em;
+}
+
+.PassDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ShowPWButton {
+  border-radius: 10px;
+  border: none;
+  padding: 1em 1.5em;
+  margin-left: 1em;
+  background-color: #FFFFFF;
+}
+
+.PWImage {
+  vertical-align: middle;
+}
+
+.SignUpButton {
+  width: 100%;
+  background-color: #0070C3;
+  border-radius: 10px;
+  color: #FFFFFF;
+  border: none;
+  padding: 1em;
+  margin-top: 4.5em;
+  font-family: 'Prompt', sans-serif;
+}
